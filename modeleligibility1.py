@@ -105,7 +105,7 @@ def modeleligible1(df):
         
         # change to location of pickled columns
         
-        col_names = r'C:\Users\Amber\Anaconda3\envs\Pro\colsdowngbc.pkl'
+        col_names = r'\colsdowngbc.pkl'
         list_unpickle = open(col_names, 'rb')
 
         # load the unpickle object into a variable
@@ -119,7 +119,7 @@ def modeleligible1(df):
         #Dump the trained gbc classifier with Pickle
         
         # change to location of pickled classifier
-        best_pkl_filename = r'C:\Users\Amber\Anaconda3\envs\Pro\bestdowngbc.pkl'
+        best_pkl_filename = r'\bestdowngbc.pkl'
         # load the pickled model
         best_model_pkl = open(best_pkl_filename, 'rb')
         best_model = pickle.load(best_model_pkl)
@@ -131,7 +131,7 @@ def modeleligible1(df):
         # open pickled lime
         
         # change to location of pickled lime classifier
-        explainer_filename = r'C:\Users\Amber\Anaconda3\envs\Pro\limedowngbc.pkl'
+        explainer_filename = r'\limedowngbc.pkl'
         with open(explainer_filename, 'rb') as f: explainer = dill.load(f)
 
 
