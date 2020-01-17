@@ -1,0 +1,7 @@
+.app-header {
+    height: 100px;
+    line-height: 60px;
+  /*  border-bottom: 5px #f9f9f9 solid; */
+    border-bottom: 5px whitesmoke solid;
+}
+
