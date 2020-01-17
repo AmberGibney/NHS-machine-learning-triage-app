@@ -77,8 +77,8 @@ app = dash.Dash(__name__)
 
 # change location to assets folder location
 
-image_filename = r'C:\Users\Amber\Anaconda3\envs\Pro\assets\b.jpg' 
-image_filename1 = r'C:\Users\Amber\Anaconda3\envs\Pro\assets\hf.jpg' 
+image_filename = r'\assets\b.jpg' 
+image_filename1 = r'\assets\hf.jpg' 
 
 
 
@@ -281,8 +281,8 @@ def update_output_div(n_clicks,att_id):
         df = pd.read_sql_query(query, conn_global)'''
 
         
-        # local test db
-        conn_global = sqlite3.connect("C:\\Users\\Amber\\desktop\\Update News\\NEWStest.db")
+        # insert location here
+        conn_global = sqlite3.connect("")
 
 
         
