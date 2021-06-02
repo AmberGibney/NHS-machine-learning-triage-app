@@ -271,7 +271,7 @@ traitlets==4.3.2
 twython==3.7.0
 unicodecsv==0.14.1
 uritemplate==3.0.0
-urllib3==1.24.3
+urllib3==1.26.5
 virtualenv==16.0.0
 virtualenvwrapper-win==1.2.5
 wcwidth==0.1.7
