@@ -112,7 +112,7 @@ jupyter-console==6.0.0
 jupyter-core==4.4.0
 jupyter-plotly-dash==0.2.0
 jupyter-server-proxy==1.1.0
-jupyterlab==0.35.4
+jupyterlab==1.2.21
 jupyterlab-dash==0.1.0a2
 jupyterlab-server==0.2.0
 Keras==2.2.4
