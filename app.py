@@ -25,8 +25,8 @@ import time
 import re
 import pickle
 from itertools import chain
-from modelcleaning1 import modelcleaning1
-from modeleligibility1 import *
+from modelcleaning import model_cleaning
+from modeleligibility import *
 
 from NEWSpro import *
 
