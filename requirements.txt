@@ -29,7 +29,7 @@ Bottleneck==1.2.1
 brewer2mpl==1.4.1
 bz2file==0.98
 cachetools==3.1.0
-certifi==2019.6.16
+certifi==2022.12.7
 cffi==1.12.3
 chardet==3.0.4
 Click==7.0
